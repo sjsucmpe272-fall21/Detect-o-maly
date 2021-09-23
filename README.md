@@ -1,6 +1,6 @@
 # Team-Project-24
 
-## Team members:
+# Team members:
 - Vinti Jain
 - Abhishek Ganesan
 - Sai Yashwanth Reddy Gunturu
@@ -82,3 +82,30 @@ Any network provider looking to make their network more secure.
 ### Datasets
 
 https://www.kaggle.com/hassan06/nslkdd
+
+## Idea 4 - Face Mask Detection in Public Places
+
+### Introduction
+
+With the advent of COVID-19, the utility of face masks for personal and public health has become a necessity. The CDC has a research[https://www.cdc.gov/coronavirus/2019-ncov/science/science-briefs/masking-science-sars-cov2.html#:~:text=A%20study%20of%20an%20outbreak,70%25%20reduced%20risk.] stating that the use of face masks reduces the risk of being infected by COVID-19 by 70%. This number alone states the paramount importance of wearing masks in public places. 
+
+### Abstract
+
+We are proposing a CNN based Neural Network model which identifies faces with and without masks to mimic a biometric system for public safety.
+
+  1. The Face Mask Detection System can be used at airports to detect travelers without masks.
+  2. Using Face Mask Detection System, Hospitals can monitor if their staff is wearing masks during their shift or not.
+  3. The Face Mask Detection System can be used at office premises to detect if employees are maintaining safety standards at work.
+  4. Any public setting which might require a face mask
+
+### Approach
+
+We present a model to segment images using Convolution Neural Network that detects if a person wears mask. SVM object detector is used to identify the face area from the image. Filters are used in different layers. Output of previous layers serve as input for next layer. Our Face Mask Detection model will classify the face ‘with mask’ or ‘without mask’. 
+
+### Persona
+
+Any government authority looking to enforce the wearing of masks in any locality or closed environment.
+
+### Datasets
+
+https://www.kaggle.com/omkargurav/face-mask-dataset
