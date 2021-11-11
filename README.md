@@ -23,6 +23,7 @@ A ML-based intelligent parser that detects log anomalies based on all log data. 
 
 ### Dataset
 Logpai - https://github.com/logpai/loghub
+Kaggle - https://www.kaggle.com/shawon10/web-log-dataset
 
 ### Persona
 
