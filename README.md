@@ -21,6 +21,9 @@ A ML-based intelligent parser that detects log anomalies based on all log data. 
 - Apply a different classification techniques on new incoming logs.
 - Based on the classification result, if the log is anomalous, we create a Splunk-like dashboard event.
 
+### Dataset
+Logpai - https://github.com/logpai/loghub
+
 ### Persona
 
 - All enterprise software companies can use this product to get a prediction on their incoming logs before actual issues occur with the software because of any anomaly.
